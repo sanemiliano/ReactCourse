@@ -27,7 +27,7 @@ class Chancho {
     static correr(){
         console.log('Estoy corriendo');
         console.log(this.altura);
-        console.log(this.propiedad);//This doesn't work
+        //console.log(this.propiedad);//This doesn't work
     }
 }
 const feliz = new Chancho('feliz');
